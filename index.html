@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/js_112_OleksiyVoloshyn/assets/together-7Zsid3WX.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+  <script type="module" crossorigin src="/js_112_OleksiyVoloshyn/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_112_OleksiyVoloshyn/assets/vendor-CjHTzI7x.js">
+  <link rel="stylesheet" crossorigin href="/js_112_OleksiyVoloshyn/assets/vendor-BcxbRG1O.css">
+  <link rel="stylesheet" crossorigin href="/js_112_OleksiyVoloshyn/assets/index-D4Slgyb1.css">
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header-left">
+        <img src="/js_112_OleksiyVoloshyn/assets/jefferson-BneEGmLp.png" srcset="/js_112_OleksiyVoloshyn/assets/jefferson-BneEGmLp.png 2x, /js_112_OleksiyVoloshyn/assets/jefferson@3x-HOfPO5DD.png 3x" alt="jefferson.png" class="logo_img" width="80" height="80" />
+        <p class="header-title">
+            <span class="header-title-text">jefferson</span><span class="header-title-star">*</span>
+        </p>
+    </div>
+
+    <!-- Центр меню (має бути видимим на планшетах і десктопах) -->
+    <div class="menu-center">
+        <p class="menu-center-open">Menu</p>
+        <ul class="menu-center-list">
+            <li class="menu-center-item"><a href="#about-me">About me</a></li>
+            <li class="menu-center-item"><a href="#benefits">Benefits</a></li>
+            <li class="menu-center-item"><a href="#projects">Projects</a></li>
+            <li class="menu-center-item"><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+
+    <!-- Кнопка для планшетів і десктопів -->
+    <a class="btn-menu-tablet" href="#work-together">Order the project</a>
+
+    <!-- Бургер-меню для мобільної версії -->
+    <div class="header-right">
+        <button class="menu-toggle" id="menu-toggle" aria-label="open menu">
+            <svg class="header-icon-burger" width="28px" height="28px">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-menu"></use>
+            </svg>
+        </button>
+    </div>
+</header>
+
+<!-- Модальне вікно -->
+<div class="modal-header">
+    <div class="header-menu">
+        <button class="modal-btn-close" id="close-btn" type="button" aria-label="close modal window">
+            <svg class="menu-icon-close" width="28px" height="28px">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-x"></use>
+            </svg>
+        </button>
+        <ul class="menu-list">
+            <li class="menu-item"><a href="#about-me">About me</a></li>
+            <li class="menu-item"><a href="#benefits">Benefits</a></li>
+            <li class="menu-item"><a href="#projects">Projects</a></li>
+            <li class="menu-item"><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn-menu" href="#work-together">Order the project</a>
+    </div>
+</div>
+
+
+  <main>
+    <section class="hero">
+    <div class="container hero-container">
+        <h1 class="hero-title">Hello.<br>
+            I’m Fullstack developer
+            Lloyd Jefferson.</h1>
+        <ul class="hero-list">
+            <li class="hero-item"><a href="https://www.instagram.com/goitclub/" target="_blank"
+                    rel="noopener noreferrer nofollow" class="hero-link">IG</a>
+            </li>
+            <li class="hero-item"><a href="https://www.facebook.com/goITclub/" target="_blank"
+                    rel="noopener noreferrer nofollow" class="hero-link">FB</a>
+            </li>
+            <li class="hero-item"><a href="https://www.youtube.com/c/GoIT" target="_blank"
+                    rel="noopener noreferrer nofollow" class="hero-link">YT</a></li>
+            <li class="hero-item"><a href="https://github.com/OleksiyVoloshyn/Project_DremTeam" target="_blank"
+                    rel="noopener noreferrer nofollow" class="hero-link">GH</a></li>
+            <li class="hero-item"><a href="mailto:lloydjefferson@gmail.com" target="_blank"
+                    rel="noopener noreferrer nofollow" class="hero-email">lloydjefferson@gmail.com</a></li>
+        </ul>
+    </div>
+</section>
+    <section class="about-me" id="about-me">
+    <h2 class="visually-hidden">About Me</h2>
+    <div class="container about-me-container">
+        <div class="about-me-text-img">
+            <div class="about-me-text">
+                <p class="about-me-p">I work with people all over the world to create impressive and <span class="functional">functional</span> <span class="websites">websites</span> that reflect each client's unique personality.</p>
+            </div>
+                <picture>
+                    <source
+                    media="(min-width: 1440px)"
+                    srcset="/js_112_OleksiyVoloshyn/assets/about-desktop-x1-BTqq_Cjn.jpg 1x, /js_112_OleksiyVoloshyn/assets/about-desktop-x2-CAUs7kII.jpg 2x"
+                    width="680"
+                    height="700"/>
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="/js_112_OleksiyVoloshyn/assets/about-tablet-x1-GWlZuK4F.jpg 1x, /js_112_OleksiyVoloshyn/assets/about-tablet-x2-CC5vCznE.jpg 2x"
+                    width="704"
+                    height="700"/>
+                    <source
+                    media="(max-width: 767px)"
+                    srcset="/js_112_OleksiyVoloshyn/assets/about-mob-x1-CO8oJCax.jpg 1x, /js_112_OleksiyVoloshyn/assets/about-mob-x2-eGm0CrI-.jpg 2x"
+                    width="343"
+                    height="500"/>
+                    <img
+                    class="about-me-img"
+                    src="/js_112_OleksiyVoloshyn/assets/about-mob-x1-CO8oJCax.jpg"
+                    width="704"
+                    height="700"
+                    alt="My photo"/>
+                </picture>
+        </div>
+        
+
+        <div class="about-me-ul-div">
+            <ul class="about-me-ul accordion-container">
+                <li class="about-me-li ac is-active">
+                    <div class="h3-and-btn">
+                        <h3 class="about-me-h3 ac-header">About me</h3>
+                        <button class="about-me-close-btn ac-trigger" type="button" aria-expanded="true" aria-label="open-close-icon">
+                            <svg 
+                            class="close-open-icon" 
+                            width="28"
+                            height="14">
+                            <use class="about-me-use" href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="ac-panel">
+                        <p class="about-me-li-text about-me-first-p ac-text">I am Lloyd Jefferson, a talented programmer with extensive expertise in software development. I have an understanding of different programming languages ​​and technologies, always ready to improve my skills. I always follow the latest trends and look for unconventional, creative solutions to problems. I have a high level of analytical skills and am able to effectively solve even the most difficult tasks encountered on the way.</p>
+                        <p class="about-me-li-text ac-text">Able to work both independently and in a team. I can effectively cooperate with colleagues, exchanging ideas and finding optimal solutions. Professional maturity allows you to calmly cope with challenges and stressful situations, while maintaining a high quality of work.I am always looking for opportunities for self-improvement. I actively study new technologies and practices to stay abreast of the latest innovations. I have a strong understanding of various programming languages, frameworks and architectural concepts that allow me to create efficient and scalable software.</p>
+                    </div>
+                </li>
+                <li class="about-me-li ac">
+                    <div class="h3-and-btn">
+                        <h3 class="about-me-h3 ac-header">Role</h3>
+                        <button class="about-me-close-btn ac-trigger" type="button" aria-label="open-close-icon">
+                            <svg 
+                            class="close-open-icon" 
+                            width="28"
+                            height="14">
+                            <use class="about-me-use" href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="ac-panel">
+                        <p class="about-me-li-text about-me-li-role ac-text">Frontend development</p>
+                        <p class="about-me-li-text about-me-li-role ac-text">HeadlessCMS,Wordpress</p>
+                        <p class="about-me-li-text ac-text">Blender(enjoy)</p>
+                    </div>
+                </li>
+                <li class="about-me-li ac">
+                    <div class="h3-and-btn">
+                        <h3 class="about-me-h3 ac-header">Education</h3>
+                        <button class="about-me-close-btn ac-trigger" type="button" aria-label="open-close-icon">
+                            <svg 
+                            class="close-open-icon" 
+                            width="28"
+                            height="14">
+                            <use class="about-me-use" href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="ac-panel">
+                        <p class="about-me-li-text about-me-li-educ gap-ten ac-text">2018 - 2019  / Frontend Development Diploma, GoIT IT School, New York</p>
+                        <p class="about-me-li-text about-me-li-educ gap-ten ac-text">2019 - 2020 / Advanced Web Development Certificate, GoIT IT School, New York</p>
+                        <p class="about-me-li-text about-me-li-educ ac-text">2020 - 2022 / Advanced Blender Animation Techniques, Udemy</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="about-me-wrapper-for-skills">
+            <div class="about-me-skills swiper">
+                <ul class="about-me-skills-ul swiper-wrapper">
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">HTML/CSS</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">JavaScript</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">React</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">Node.js</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">React Native</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">Soft skills</p>
+                    </li>
+                    <li class="about-me-skills-li swiper-slide">
+                        <p class="about-me-skill-p">React Native</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="about-me-btn-next swiper-button-next">
+                <svg
+                class="about-me-next-btn-svg"
+                width="28"
+                height="28">
+                    <use class="about-me-use-next" href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-right"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+    <section class="benefits-section" id="benefits">
+    <div class="benefits-container container">
+      <h2 class="benefits-title">BENEFITS OF WORKING WITH ME</h2>
+      <div class="list-container">
+        <ul class="benefits-list">
+          <li class="benefits-list-item">
+
+              <svg class="benefits-section-icon" width="24" height="24">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-user"></use>
+              </svg>
+
+            <div class="item-container">
+              <h3 class="benefits-item-title">Expertise</h3>
+              <p class="benefits-item-text">
+                As a highly experienced developer, I have deep knowledge of
+                programming and website development.
+              </p>
+            </div>
+          </li>
+          <li class="benefits-list-item">
+
+              <svg class="benefits-section-icon" width="24" height="24">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-chat"></use>
+              </svg>
+
+            <div class="item-container">
+              <h3 class="benefits-item-title">Communication</h3>
+              <p class="benefits-item-text">
+                Understanding your needs and wants is my priority and I am always
+                open to discussions and corrections.
+              </p>
+            </div>
+          </li>
+          <li class="benefits-list-item">
+
+              <svg class="benefits-section-icon" width="24" height="24">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-brush"></use>
+              </svg>
+
+            <div class="item-container">
+              <h3 class="benefits-item-title">Art</h3>
+              <p class="benefits-item-text">
+                Thanks to my creative nature, I am ready to accept challenges and
+                help you bring your ideas to life.
+              </p>
+            </div>
+          </li>
+         <li class="benefits-list-item">
+              <svg class="benefits-section-icon" width="24" height="24">
+                <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-hourglass"></use>
+              </svg>
+
+            <div class="item-container">
+              <h3 class="benefits-item-title">Urgent execution</h3>
+              <p class="benefits-item-text">
+                I understand how important time is to you. Ready to work quickly
+                and efficiently, without reducing the quality of work.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a
+          class="button-order-benefits"
+          href="#work-together"
+          title="Let's work together"
+          ><span class="text-button">Order the project</span></a
+        >
+            </div>
+    </div>
+  </section>
+
+    <section id="projects" class="projects">
+  <div class="container">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-swiper">
+      <ul class="projects-list swiper-wrapper"></ul>
+    </div>
+    <div class="projects-buttons">
+      <button class="button-prev projects-button">
+        <svg class="projects-button-icon">
+          <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-left"></use>
+        </svg>
+      </button>
+      <button class="button-next projects-button">
+        <svg class="projects-button-icon">
+          <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <section id="faq" class="page-faq">
+  <div class="container">
+    <h2 class="faq-title">FAQ</h2>
+    <div id="faq-list" class="accordion-container">
+      <div class="ac ac-first">
+        <h3 class="ac-header">
+          <button class="ac-trigger ac-title">
+            What programming languages ​​are most often used in your project?
+            <svg class="icon-toggle ac-btn" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+
+      <div class="ac ac-second">
+        <h3 class="ac-header">
+          <button class="ac-trigger">
+            What are the deadlines for the project?
+            <svg class="icon-toggle ac-btn" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+      <div class="ac ac-third">
+        <h3 class="ac-header">
+          <button class="ac-trigger">
+            What payment methods do you accept?
+            <svg class="icon-toggle ac-btn" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+      <div class="ac ac-fourth">
+        <h3 class="ac-header">
+          <button class="ac-trigger ac-padding">
+            How can I contact you?
+            <svg class="icon-toggle" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text ac-padding">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+      <div class="ac ac-fivth">
+        <h3 class="ac-header">
+          <button class="ac-trigger ac-padding">
+            Do you provide advice or support?
+            <svg class="icon-toggle" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text ac-padding">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+      <div class="ac ac-sixth">
+        <h3 class="ac-header">
+          <button class="ac-trigger ac-padding ac-last">
+            What does the process of developing a software product look like
+            from idea to implementation?
+            <svg class="icon-toggle" width="40" height="40">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text ac-padding">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="covers">
+  <div class="covers-container">
+    <h2 class="visually-hidden">Covers of projects</h2>
+    <div class="covers-gallery">
+      <ul class="marquee">
+        <li class="marquee-li">
+          <ul class="marquee-row">
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-8-2x-CVSGADAn.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg"
+                alt="pulse"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-5-2x-CEQqjI9c.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg"
+                alt="mimino"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-7-2x-DqNQXaiS.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg"
+                alt="vegetables"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-9-2x-CflMwGCy.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg"
+                alt="finances"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-10-2x-B7j90ko2.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg"
+                alt="english"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-1-2x-DdxzsWRT.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg"
+                alt="starlight"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-2-2x-BN9Ebqse.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg"
+                alt="energy"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-3-2x-qpanS8a3.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg"
+                alt="fruitbox"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-4-2x-23UjLolv.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg"
+                alt="chego"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-6-2x-CpHKOqol.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg"
+                alt="artistry"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </li>
+        <li class="marquee-li">
+          <ul class="marquee-row">
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-9-2x-CflMwGCy.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg"
+                alt="finances"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-1-2x-DdxzsWRT.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg"
+                alt="starlight"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-6-2x-CpHKOqol.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg"
+                alt="artistry"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-10-2x-B7j90ko2.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg"
+                alt="english"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-4-2x-23UjLolv.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg"
+                alt="chego"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-2-2x-BN9Ebqse.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg"
+                alt="energy"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-5-2x-CEQqjI9c.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg"
+                alt="mimino"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-7-2x-DqNQXaiS.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg"
+                alt="vegetables"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-8-2x-CVSGADAn.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg"
+                alt="pulse"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-3-2x-qpanS8a3.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg"
+                alt="fruitbox"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </li>
+        <li class="marquee-li">
+          <ul class="marquee-row">
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-7-2x-DqNQXaiS.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg"
+                alt="vegetables"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-2-2x-BN9Ebqse.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg"
+                alt="energy"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-3-2x-qpanS8a3.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg"
+                alt="fruitbox"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-8-2x-CVSGADAn.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg"
+                alt="pulse"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-10-2x-B7j90ko2.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg"
+                alt="english"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-9-2x-CflMwGCy.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg"
+                alt="finances"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-1-2x-DdxzsWRT.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg"
+                alt="starlight"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-4-2x-23UjLolv.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg"
+                alt="chego"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-5-2x-CEQqjI9c.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg"
+                alt="mimino"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item"></li>
+            <li class="pictures-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-6-2x-CpHKOqol.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg"
+                alt="artistry"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </li>
+        <li class="marquee-li">
+          <ul class="marquee-row">
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-10-2x-B7j90ko2.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg"
+                alt="english"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-5-2x-CEQqjI9c.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg"
+                alt="mimino"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="pictures-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-6-2x-CpHKOqol.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg"
+                alt="artistry"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-4-2x-23UjLolv.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg"
+                alt="chego"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-2-2x-BN9Ebqse.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg"
+                alt="energy"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-1-2x-DdxzsWRT.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg"
+                alt="starlight"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-7-2x-DqNQXaiS.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg"
+                alt="vegetables"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-3-2x-qpanS8a3.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg"
+                alt="fruitbox"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-8-2x-CVSGADAn.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg"
+                alt="pulse"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-9-2x-CflMwGCy.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg"
+                alt="finances"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </li>
+        <li class="marquee-li">
+          <ul class="marquee-row">
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-8-2x-CVSGADAn.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-8-1x-wj8-lPr2.jpg"
+                alt="pulse"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-5-2x-CEQqjI9c.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-5-1x-9BIDvjyr.jpg"
+                alt="mimino"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-7-2x-DqNQXaiS.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-7-1x-HeAwed_p.jpg"
+                alt="vegetables"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-9-2x-CflMwGCy.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-9-1x-DvzCitIz.jpg"
+                alt="finances"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-10-2x-B7j90ko2.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-10-1x-DYCqISAD.jpg"
+                alt="english"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-1-2x-DdxzsWRT.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-1-1x-dP3R1zin.jpg"
+                alt="starlight"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-2-2x-BN9Ebqse.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-2-1x-FoLJaLMG.jpg"
+                alt="energy"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-3-2x-qpanS8a3.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-3-1x-BsO83-jA.jpg"
+                alt="fruitbox"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-4-2x-23UjLolv.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-4-1x-Ds_SewUJ.jpg"
+                alt="chego"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+            <li class="marquee-item">
+              <img
+                srcset="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg 1x, /js_112_OleksiyVoloshyn/assets/rectangle-6-2x-CpHKOqol.jpg 2x"
+                src="/js_112_OleksiyVoloshyn/assets/rectangle-6-1x-DQBPG1B6.jpg"
+                alt="artistry"
+                class="covers-img"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section id="reviews">
+  <div class="container">
+    <h2 class="reviews-name">REVIEWS</h2>
+    <div class="reviws-swiper">
+      <ul class="reviews-list swiper-wrapper">
+        <!-- <div>
+          <li>
+            <div class="reviews-button-prev reviews-nav">
+              <button type="button" class="reviews-prev-btn" disabled>
+                <svg width="32" height="32" class="reviews-list-prev-icon">
+                  <use href="./img/icons.svg#icon-icon-left"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="reviews-button-next">
+              <button type="button" class="reviews-next-btn">
+                <svg width="32" height="32" class="reviews-list-next-icon">
+                  <use href="./img/icons.svg#icon-icon-right"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div> -->
+      </ul>
+
+      <div class="reviews-nav">
+        <div class="reviews-button-prev">
+          <button type="button" class="reviews-prev-btn" disabled>
+            <svg width="32" height="32" class="reviews-list-prev-icon">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-left"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="reviews-button-next">
+          <button type="button" class="reviews-next-btn">
+            <svg width="32" height="32" class="reviews-list-next-icon">
+              <use href="/js_112_OleksiyVoloshyn/assets/icons-L-adWO-x.svg#icon-icon-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer work-together" id="work-together">
+  <div class="container footer_container" >
+    <div>
+      <div class="together-container">
+        <img class="togPng" src="/js_112_OleksiyVoloshyn/assets/together-7Zsid3WX.png" alt="together" />
+        <h2 class="together--text">
+          LET’S <span class="together--redText">WORK</span>
+        </h2>
+      </div>
+      <h2 class="together--text togetheer-textTwo">TOGETHER</h2>
+    </div>
+    <form class="form-together" id="form-together">
+      <div>
+        <input class="together-input together-input--one" id="together-input--email" type="email"
+        placeholder="clients@gmail.com" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" autocomplete="off" />
+      </div>
+      <input class="together-input together-input--two" id="together-input--comments" type="text" placeholder="comments"
+        maxlength="100" autocomplete="off" />
+      <button class="together-button" type="submit">Send</button>
+    </form>
+    <div class="together-links">
+      <a class="together-link together-link--one" href="mailto:lloydjefferson@gmail.com"
+        target="_blank">lloydjefferson@gmail.com</a>
+      <a class="together-link together-link--two" href="tel:+3801111111111" target="_blank">+380 11 1111 11 11</a>
+    </div>
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="successModal">
+      <div class="modal-content" id="responseModal">
+        <span class="close-button" id="closeModal">&times;</span>
+        <p id="modalMessage"></p>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+</body>
+
+</html>
